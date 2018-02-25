@@ -61,7 +61,7 @@ class FastFilterSearchViewController: UIViewController, MFMailComposeViewControl
         message.requiresAuth = true
         message.wantsSecure = true
         message.relayPorts = [587]
-        message.fromEmail = ""
+        message.fromEmail = "k"
         message.toEmail = ""
         message.subject = "First subject"//subject
         let messagePart = [kSKPSMTPPartContentTypeKey: "text/plain; charset=UTF-8", kSKPSMTPPartMessageKey: "hello first mail!"]
